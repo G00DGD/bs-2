@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<title>Bootstrap Exercise</title>
+</head>
+<body>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background-color: #fff;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    header {
+        padding: 15px 0;
+        background-color: #000;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+
+    header ul {
+        list-style: none;
+    }
+
+    header nav li {
+        display: inline;
+        font-size: 20px;
+        list-style-type: none;
+        font-weight: bolder;
+    }
+
+    header a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    header li a {
+        margin: 10px;
+    }
+
+    header a:hover {
+        color: #ffffff6e;
+        text-decoration: none;
+    }
+
+    header h1 {
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    
+    .container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    }
+</style>
+<header>
+    <div class="container">
+    <h1>Piracon</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Novidades</li></a>
+            <li><a href="">Downloads</li></a>
+        </ul>
+    </nav>
+    </div>
+</header>
+<div class="container">
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://waytoomany.games/wp-content/uploads/2023/08/remnant-2-cover.webp" width="1200" height="400" class="d-block w-100" alt="Imagem 1">
+        </div>
+        <div class="carousel-item">
+            <img src="https://blog.br.playstation.com/tachyon/sites/4/2023/02/babee9c954509a0d34a67e7d125b679096ef9d79-scaled.jpg?resize=1088%2C612&crop_strategy=smart" width="1200" height="400" class="d-block w-100" alt="Imagem 2">
+        </div>
+        <div class="carousel-item">
+            <img src="https://cdn.akamai.steamstatic.com/steam/apps/1966720/capsule_616x353.jpg?t=1698095390" width="1200" height="400"  class="d-block w-100" alt="Imagem 3">
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+        </a>
+        </div>
+        <div class="container mt-4">
+        <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202306/0220/fbf7eb3103c7c8edc00fa357a5152f00a0d0ed43b245a12d.jpg" width="300" height="300" class="card-img-top" alt="Imagem do Card 1">
+            <div class="card-body">
+                <h5 class="card-title">Baixar Remant 2 Grátis</h5>
+                <a href="#" class="card-text">Download</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202302/2321/ba706e54d68d10a0eb6ab7c36cdad9178c58b7fb7bb03d28.png" height="300" width="300" class="card-img-top" alt="Imagem do Card 2">
+            <div class="card-body">
+                <h5 class="card-title">Baixar Baldur's Gate 3 Grátis</h5>
+                <a href="#" class="card-text">Download</a>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+            <img src="https://cdn.akamai.steamstatic.com/steam/apps/1966720/capsule_616x353.jpg?t=1698095390" height="300" width="300" class="card-img-top" alt="Imagem do Card 3">
+            <div class="card-body">
+                <h5 class="card-title">Baixar Lethal Company Grátis</h5>
+                <a href="#" class="card-text">Download</a>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
